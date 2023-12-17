@@ -1,0 +1,41 @@
+form {
+  background-color: #bbdefb;
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+}
+form div{
+  margin-bottom: 5px;
+}
+.center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty{
+  font-size: 40px;
+}
+.btn-add{
+  background-color: #007bb2;
+  padding: 8px 30px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all .5s ease;
+}
+.btn-add:hover{
+  background-color: #33bfff;
+}
+.btn-delete{
+  background-color: #ff1744;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.btn-delete:hover{
+  background-color: #d50000;
+}
